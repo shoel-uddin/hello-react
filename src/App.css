@@ -2,10 +2,41 @@
   text-align: center;
 }
 
+.card-frame {
+  max-width: 40%;
+  outline: 5px solid rgb(243, 255, 82);
+  margin: auto;
+  padding: 15px;
+
+  
+}
+
+.card-frame img {
+  width: 100%;
+  
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+/* @media only screen and (min-width: 600px) {
+  .gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
